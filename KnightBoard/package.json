@@ -1,0 +1,30 @@
+{
+  "name": "valid-chess-moves-server",
+  "version": "1.0.0",
+  "description": "Node server of Valid Chess Moves",
+  "main": "src/index.ts",
+  "repository": "https://github.com/CarlosBonetti/valid-chess-moves",
+  "author": "Carlos Bonetti",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "start:dist": "node dist/index.js",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.2",
+    "@types/jest": "^24.0.25",
+    "@types/node": "^13.1.5",
+    "@types/supertest": "^2.0.8",
+    "express": "^4.17.1",
+    "typescript": "^3.7.4"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2",
+    "ts-jest": "^24.3.0",
+    "ts-node": "^8.5.4"
+  }
+}
