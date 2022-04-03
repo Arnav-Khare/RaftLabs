@@ -4,7 +4,7 @@ An interactive webpage for managing library resources
 
 ## Demo
 
-The site is live at [Website]('https://arnav-khare.github.io/Demo')
+The site is live at [Website](https://arnav-khare.github.io/Demo)
 
 ## Installation
 
