@@ -21,4 +21,6 @@ Server
 cd backend/
 node server.js
 ```
+## Usage 
 
+Click on Search By ISBN to toggle the Search between search by ISBN and Search by Author's Name
